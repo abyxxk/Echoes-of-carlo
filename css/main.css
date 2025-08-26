@@ -1828,7 +1828,7 @@ input::-moz-focus-inner {
   -webkit-transform: translate3d(0, -50%, 0);
   transform: translate3d(0, -50%, 0);
   position: absolute;
-  left: 11rem;
+  left: 13rem;
   top: 50%;
 }
 
@@ -1966,7 +1966,7 @@ input::-moz-focus-inner {
  * ------------------------------------------------------------------- */
 @media screen and (max-width:1400px) {
   .header-logo {
-    left: 9.8rem;
+    left: 13.8rem;
   }
 
   .header-logo::before {
@@ -1985,7 +1985,7 @@ input::-moz-focus-inner {
 
 @media screen and (max-width:1000px) {
   .header-logo {
-    left: 8.8rem;
+    left: 12.8rem;
   }
 
   .header-logo::before {
@@ -2037,7 +2037,7 @@ input::-moz-focus-inner {
 
 @media screen and (max-width:600px) {
   .header-logo {
-    left: 4.8rem;
+    left: -1rem;
   }
 
   .header-logo::before {
@@ -3460,6 +3460,39 @@ html.no-csstransitions .hero-content {
   padding-bottom: 16rem;
   background-color: #ffffff;
 }
+.message-main{
+  padding: 30px;
+}
+.message-main hr{
+  height: 2px;
+  background-color: rgb(201, 197, 197);
+  border-radius: 50%;
+}
+.names{
+  font-size: 25px;
+  font-weight: 500;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.names p{
+  margin-bottom: 0px;
+}
+.message-container{
+
+  border: 1px solid rgb(159, 150, 150);
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  font-style: italic;
+  font-family: cursive;
+  padding: 30px;
+}
+.abhi{
+  width: 200px;
+  border-radius: 100%
+}
+
 .main-active{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
