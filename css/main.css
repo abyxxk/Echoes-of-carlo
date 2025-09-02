@@ -3205,7 +3205,12 @@ html.no-csstransitions .hero-content {
 .s-footer .row .column:first-child {
   margin-right: auto;
 }
-
+.columns img{
+  height: 300px;
+  width: 400px;
+  border-radius: 30px;
+  opacity: 85%;
+}
 /* -------------------------------------------------------------------
  * ## footer logo 
  * ------------------------------------------------------------------- */
@@ -3469,12 +3474,19 @@ html.no-csstransitions .hero-content {
   border-radius: 50%;
 }
 .names{
-  font-size: 25px;
-  font-weight: 500;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    font-size: 25px;
+    font-weight: 500;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    flex-direction: column;
+    align-items: center;
+}
+.names span{
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 18px;
 }
 .names p{
-  margin-bottom: 0px;
+  margin-bottom: -4px;
 }
 .message-container{
 
